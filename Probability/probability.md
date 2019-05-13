@@ -72,7 +72,9 @@ P(light) = P(ligth|sleep) * P(sleep) + P(light|-sleep) * P(-sleep)
 
 *Additional materials
 https://www.coursera.org/learn/probability-theory-basics/lecture/lk0Ne/formula-baiiesa
+
 https://neurohive.io/ru/osnovy-data-science/kak-primenjat-teoremu-bajesa-dlja-reshenija-realnyh-zadach/
+
 http://baguzin.ru/wp/den-morris-teorema-bajesa-vizualnoe-vvedenie-dlya-nachinayushhih/*
 
 # Дискретные Случайные велечины  / Random Variables
@@ -127,7 +129,7 @@ P(ω) - вероятность эл. события
 
 ![](./content/D.png)
 
-###Свойства:
+### Свойства:
 - Dξ >= 0
 - Dξ = E(ξ^2) - (Eξ)^2
 - D(ξ+a) = Dξ
@@ -146,10 +148,10 @@ cov( ξη ) = E( (ξ - Eξ) * (η - Eη) )
 
 r( ξη ) = cov( ξη ) / sqrt(Dξ) * sqrt(Dη)
 
-### Неравенство Маркова**
+### Неравенство Маркова
 `P(ξ≥a)≤Eξ / a`
 
-### Неравенство Чебышова**
+### Неравенство Чебышова
 `P|η−Eη| ≥ b ≤ Dη / b^2`
 
 ## Непрерывные Случайные велечины 
@@ -178,13 +180,12 @@ P(|Sn/n - p| >=  ε)  --> 0 , при n --> oo
 
 ![muavra_laplassa](./content/muavra_laplassa.png)
 
+# Центральная предельная теорема
+Случайная вел. определенная как среднее большого числа независимых и идетнично распределенных случ. вел. , сама является нормально распределенной
 
-# Геометрическая вероятность
+
+> Геометрическая вероятность
 
 > Метод Монте-Карло
 
 > Сигма-алгебра событий
-
-
-## Центральная предельная теорема
-Случайная вел. определенная как среднее большого числа независимых и идетнично распределенных случ. вел. , сама является нормально распределенной
