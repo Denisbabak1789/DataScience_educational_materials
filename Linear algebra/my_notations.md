@@ -101,9 +101,11 @@ a set of vectors is said to be **linearly dependent** if at least one of the vec
 A - матрица, v - собственный вектор, Y - собственное значение
 Преобразование вектора v матрицей А - ровнослиьно умножению вектора v на eigen value. (Так как собственный вектор при преобразовании не перемещается)
 
+
 ![eigen_value](./content/eigen_value.png)
 
-*Example*
+*Example:*
+
 ![eigen_value_example](./content/eigen_value_example.png)
 
 
