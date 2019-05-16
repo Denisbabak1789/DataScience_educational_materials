@@ -86,16 +86,12 @@ a set of vectors is said to be **linearly dependent** if at least one of the vec
 ### Вектроное произведение /  Cross product
 в результате получаем вектор перпендикулярный паралелограмму, с длинной равняющейся площади этого паралелограмма (det). Используется правило правой руки.
 
-<img src=https://en.wikipedia.org/wiki/File:Cross_product_vector.svg>
-
 <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Right_hand_rule_cross_product.svg/220px-Right_hand_rule_cross_product.svg.png>
 ![cross_product](./content/cross_product.png)
 
 ### Собственный вектор / Eigen vector 
 
 Собственный вектор - вектор, который при преобразовании не меняет свое расположение, его span не меняется. Он только растягивается или сужается.
-
-<img src=https://en.wikipedia.org/wiki/File:Eigenvectors.gif>
 
 <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Eigenvalue_equation.svg/250px-Eigenvalue_equation.svg.png>
 
@@ -107,7 +103,7 @@ A - матрица, v - собственный вектор, Y - собстве�
 
 ![eigen_value](./content/eigen_value.png)
 
-
+*Example*
 ![eigen_value_example](./content/eigen_value_example.png)
 
 
